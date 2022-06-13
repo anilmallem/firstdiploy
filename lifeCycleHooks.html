@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+        <h1>LifeCycleHooks</h1>
+        <lightning-button label="New Account" onclick={Navigate}></lightning-button>
+        <a href={viewPdf}>Preview File</a>
+        <template if:true={display}>
+            <!-- <iframe src={viewPdf} width="100%" height="1400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+            
+
+        </template>
+    </lightning-card>
+</template>
